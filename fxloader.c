@@ -31,6 +31,8 @@
 * For more information, please refer to <http://unlicense.org/>
 */
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 #include "libusb.h"
 #include "fxloader.h"
 
