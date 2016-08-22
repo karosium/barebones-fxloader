@@ -80,7 +80,7 @@ int CypressWriteRam(libusb_device_handle *device,unsigned int addr, unsigned cha
 					addr>>16,
 					buf, 
 					len, 
-					200);
+					1000);
 	return status;
 
 }
